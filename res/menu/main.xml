@@ -1,0 +1,48 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.baidumap.MainActivity" >
+
+    <item
+        android:id="@+id/id_map_common"
+        android:orderInCategory="100"
+        android:title="普通地图"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/id_map_site"
+        android:orderInCategory="100"
+        android:title="卫星地图"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/id_map_traffic"
+        android:orderInCategory="100"
+        android:title="实时交通(off)"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/id_map_location"
+        android:orderInCategory="100"
+        android:title="我的位置"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/id_map_camera"
+        android:orderInCategory="100"
+        android:title="相机"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/id_map_getlocation"
+        android:orderInCategory="100"
+        android:title="对比定位"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/id_map_offline"
+        android:orderInCategory="100"
+        android:title="下载离线地图"
+        app:showAsAction="never"/>
+
+
+</menu>
